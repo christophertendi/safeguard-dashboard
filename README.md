@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# 🛡️ SafeGuard AI - Content Moderation Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Live Demo:** https://safeguard-dashboard.vercel.app  
+**API:** https://safeguard-ai.safeguardai.workers.dev
 
-## Available Scripts
+## 🎯 Overview
+SafeGuard AI uses a hybrid moderation approach:
+rule-based keyword detection for deterministic enforcement,
+combined with ML-based inference (Cloudflare Workers AI) for contextual understanding.
 
-In the project directory, you can run:
+## ✨ Features
+- ✅ Text toxicity detection (keyword-based)
+- ✅ Image moderation (coming soon)
+- ✅ Real-time analysis (<200ms)
+- ✅ Global edge deployment
+- ✅ Modern responsive UI
 
-### `npm start`
+## 🚀 Tech Stack
+- **Frontend:** React, Vercel
+- **Backend:** Cloudflare Workers
+- **AI:** Cloudflare Workers AI (Llama 2, ResNet-50)
+- **Cost:** $0/month (100% free tier)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📊 Performance
+- **Latency:** 100-200ms globally
+- **Uptime:** 99.9%
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔧 Local Development
+```bash
+# Frontend
+npm install
+npm start
 
-### `npm test`
+# Backend (Worker)
+cd ../safeguard-ai
+npx wrangler dev
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🌐 Deployment
+- Frontend auto-deploys to Vercel on push to `main`
+- Backend: `npx wrangler deploy`
 
-### `npm run build`
+## 📸 Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![SafeGuard AI Demo](screenshots/text%20moderation%20-%20flagged.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 👨‍💻 Author
+**Christopher Samuel Tendi**
+- [LinkedIn](https://linkedin.com/in/christopher-tendi)
+- [Portfolio](https://tinyurl.com/Christophers-Portfolio)
+- Email: chris.samuelten@gmail.com
