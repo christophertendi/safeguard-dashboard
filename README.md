@@ -1,6 +1,6 @@
 # 🛡️ SafeGuard AI - Content Moderation Platform
 
-**Live Demo:** https://safeguard-dashboard.vercel.app  
+**Live Demo:** https://safeguard-dashboard-three.vercel.app/  
 **API:** https://safeguard-ai.safeguardai.workers.dev
 
 ## 🎯 Overview
